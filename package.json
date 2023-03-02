@@ -1,0 +1,21 @@
+{
+  "name": "ilsodepi",
+  "version": "1.0.0",
+  "description": "pizzas aplication",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Raúl Sánchez Cobos",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
